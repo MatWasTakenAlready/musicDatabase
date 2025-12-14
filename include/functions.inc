@@ -1,6 +1,6 @@
 <?php
 
-    function printHead ($title, $css, $iconName, $author="Matteo&Simone") { //iconname contains the file extention too
+    function printHead ($title, $css, $iconName="", $author="Matteo&Simone") { //iconname contains the file extention too
         
         $out = "<!DOCTYPE html>"
                 . "<html>"

@@ -1,0 +1,71 @@
+/* central container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* screen height */
+}
+
+/* form box */
+.login-box {
+    padding: 50px;
+    border-radius: 10px;
+    background: #ffffffcc; /* soft background */
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+
+
+/* general background */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f3f3f5;
+    margin: 0;
+    padding: 60px 0;
+}
+/* background */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f4f7;
+    padding: 50px 0;
+    margin: 0;
+}
+
+/* main container */
+.song-wrapper {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+/* info box */
+.details-box {
+    flex: 1;
+    background: white;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+.song-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* labes */
+.details-box span {
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+}
+
+/* right image 200x300 */
+.cover {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.25);
+}
